@@ -1,0 +1,28 @@
+.restaurants{
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+.restaurants__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.restaurant__cards{
+    display: flex;
+    gap: 24px;
+    position: relative;
+    &_preview{
+        width: 296px;
+        box-shadow: 0px 2px 16px 0px #3C3E4A14;
+    }
+}
+.button_back{
+    position: absolute;
+    left: -50px;
+    bottom: 150px;
+}
+.button_forward{
+    position: absolute;
+    bottom: 150px;
+    left: 1235px;
+}
